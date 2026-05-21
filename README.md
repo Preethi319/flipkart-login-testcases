@@ -1,61 +1,95 @@
-# Flipkart Login Page Automation Testing
+# Flipkart Login Page Testing Project
 
 ## 📌 Project Overview
-This project focuses on automating the testing of the Flipkart Login Page using test cases maintained in Excel format. The project validates different login functionalities such as valid login, invalid login, empty fields, and error message verification to ensure the reliability and usability of the login system.
+This project focuses on testing the Flipkart Login functionality using manual testing techniques. The project includes detailed test cases, bug reports, login validation scenarios, and screenshots for verifying the functionality and security of the login module.
+
+The testing process validates different scenarios such as valid login, invalid mobile number, incorrect OTP, and expired OTP handling to ensure a secure and user-friendly authentication system.
 
 ---
 
 ## 🚀 Features
-- Login page validation testing
+- Manual testing of Flipkart login functionality
 - Positive and negative test scenarios
-- Username and password field verification
-- Error message validation
-- Excel-based test case management
-- Functional testing approach
+- OTP validation testing
+- Expired OTP verification
+- Bug reporting and defect tracking
+- Test case documentation in Excel/PDF format
+- Login screenshots for validation evidence
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tools & Technologies
 - Manual Testing
 - MS Excel
+- PDF Documentation
 - Functional Testing
-- Test Case Design
+- Defect Tracking
 
 ---
 
-## 📂 Test Scenarios
-1. Valid Login Test
-2. Invalid Username Test
-3. Invalid Password Test
-4. Empty Username Field
-5. Empty Password Field
-6. Invalid Credentials Validation
-7. UI and Input Field Validation
+## 📂 Project Files
+- `Flipkart login page.xlsx` → Test cases documentation
+- `Flipkart login page.pdf` → Test case execution and bug reports
+- `login screenshots.pdf` → Login flow screenshots
 
 ---
 
-## 📊 Project Objective
-The objective of this project is to verify the functionality, reliability, and usability of the Flipkart login module by executing different test cases and validating expected outcomes.
+## ✅ Test Scenarios Covered
+1. Login with valid mobile number and OTP
+2. Login with invalid mobile number
+3. Login with incorrect OTP
+4. Login with expired OTP
+5. Validation message verification
+6. Authentication workflow testing
 
 ---
 
-## ✅ Expected Outcome
-- Proper login validation
+## 🐞 Bug Identified
+### BUG-LOGIN-001
+- **Issue:** User was able to log in using an expired OTP
+- **Severity:** Critical
+- **Priority:** High
+- **Status:** Open
+
+---
+
+## 📊 Testing Objective
+- Verify login authentication functionality
+- Ensure secure OTP validation
+- Validate error handling messages
+- Improve login security and usability
+
+---
+
+## 🔄 Testing Process
+1. Open Flipkart login page
+2. Enter mobile number
+3. Request OTP
+4. Enter valid/invalid OTP
+5. Verify login functionality
+6. Record actual vs expected results
+
+---
+
+## 📈 Expected Outcome
+- Secure login validation
+- Proper OTP expiration handling
 - Accurate error messages
-- Secure authentication handling
-- Improved user experience
+- Improved user authentication reliability
 
 ---
 
 ## 🔮 Future Enhancements
-- Selenium automation integration
-- Cross-browser testing
-- API testing integration
-- Performance testing
+- Selenium automation testing
+- Cross-browser compatibility testing
+- API authentication testing
+- Performance and security testing
 
 ---
 
 ## 📚 Conclusion
-This project helps in understanding login functionality testing, test case preparation, and defect identification in web applications using structured testing methodologies.
+This project demonstrates practical knowledge of manual testing, defect identification, test case preparation, and authentication validation for web applications using structured software testing methodologies.
 
 ---
+
+
